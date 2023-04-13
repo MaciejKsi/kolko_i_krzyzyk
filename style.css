@@ -1,0 +1,24 @@
+body {
+  background-color: grey;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+table,
+tr,
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 200px;
+  height: 200px;
+}
+
+td:hover {
+  background-color: rgb(182, 182, 182);
+}
